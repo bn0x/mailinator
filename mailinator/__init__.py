@@ -1,6 +1,6 @@
 import requests
 
-class instance(object):
+class Mailinator(object):
     def __init__(self, api_key="", *args, **kwargs):
         self.session = requests.session()
         self.endpoint = []
